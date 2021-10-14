@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Counter</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="counterContainer">
+            <h1>Counter</h1>
+            <p id="counterDisplay">0</p>
+            <div id="buttonsContainer">
+                <button onclick="attDisplay('-1')" id="decrease">
+                    DECREASE
+                </button>
+                <button onclick="reset()" id="reset">RESET</button>
+                <button onclick="attDisplay('1')" id="increase">
+                    INCREASE
+                </button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
