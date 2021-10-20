@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#drawnContainer {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 12% 0 0 0;
+    background-color: #141414;
+}
+#drawnContainer h1 {
+    color: white;
+    text-align: center;
+}
+#drawnContainer p {
+    display: block;
+    margin: 5% 0 0 0;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+#drawnButton {
+    display: block;
+    width: 20%;
+    height: 2em;
+    margin: 5% auto 0 auto;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+}
+#drawnButton:hover {
+    background-color: black;
+    color: white;
+}
+#drawnButton:active {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.hidden {
+    display: none;
+}
